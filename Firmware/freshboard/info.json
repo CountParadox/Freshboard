@@ -1,0 +1,32 @@
+{
+    "keyboard_name": "Freshboard",
+    "maintainer": "VK2EVA",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0001",
+        "device_version": "0.0.1"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "url": "https://github.com/CountParadox",
+    "layouts": {
+        "LAYOUT_all": {
+            "layout": [
+                { "label": "1", "matrix": [0, 0], "x": 0.0, "y": 0.0 },
+                { "label": "2", "matrix": [0, 1], "x": 1.0, "y": 0.0 },
+                { "label": "3", "matrix": [0, 2], "x": 2.0, "y": 0.0 },
+                { "label": "4", "matrix": [0, 3], "x": 3.0, "y": 0.0 },
+                { "label": "5", "matrix": [0, 4], "x": 4.0, "y": 0.0 },
+                { "label": "6", "matrix": [0, 5], "x": 5.0, "y": 0.0 }
+            ]
+        }
+    }
+}

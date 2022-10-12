@@ -1,0 +1,24 @@
+{
+  "name": "Freshboard",
+  "manufacturer":"VK2EVA",
+  "vendorId": "0xFEED",
+  "productId": "0x0001",
+  "lighting": "none",
+  "matrix": {
+    "rows": 1,
+    "cols": 6
+  },
+  "layouts": {
+    "labels": [],
+    "keymap": [
+      [
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5"
+      ]
+    ]
+  }
+}
